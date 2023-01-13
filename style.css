@@ -7,6 +7,7 @@ body{
     background-color: #1F2937;
     display: flex;
     justify-content: space-around;
+    padding:10px
     
 }
 
@@ -35,6 +36,17 @@ ul{
 
 .first{
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    padding:40px
+    
+    
+}
+
+.block1{
+    flex-basis: 425px;
 }
 
 .block1header{
@@ -46,15 +58,50 @@ ul{
 .block1sectext{
     font-size: 18px;
     color: #E5E7EB;
+    padding-bottom: 8px;
+    padding-top: 6px;
 }
 
 .buttontop{
     background-color: #3882F6;
     color: #E5E7EB;
+    padding: 4px 12px;
+    border: none;
+    border-radius: 6px;
 }
 
 img{
-    height: 200;
-    width: 200;
+    height:200px;
+    width:500px;
 }
+
+.info{
+    border: 1px solid pink;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.randoms{
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+.square{
+    border: 2px #3882F6;
+    background-color: #3882F6;
+    border-radius: 6px;
+    height: 100px;
+    width:100px
+
+
+}
+
+.group{
+    border: 1px solid black
+}
+
+
 
