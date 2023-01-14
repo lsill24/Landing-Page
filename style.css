@@ -1,14 +1,16 @@
 body {
     display: flex;
     flex-direction: column;
-    margin:0px
+    margin:0px;
+    font-family:'Roboto', sans-serif;
 }
 
 .header {
     background-color: #1F2937;
     display: flex;
     justify-content: space-around;
-    padding: 10px
+    align-items: center;
+    padding: 10px 5px
 }
 
 .logo {
@@ -37,10 +39,10 @@ ul {
 .first {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-
-    padding: 40px
+    gap:250px;
+    padding: 100px 40px
 }
 
 .block1 {
@@ -63,7 +65,7 @@ ul {
 .buttontop {
     background-color: #3882F6;
     color: #E5E7EB;
-    padding: 4px 14px;
+    padding: 5px 20px;
     border: none;
     border-radius: 6px;
     font-size: 18px;
@@ -84,9 +86,9 @@ img {
 
 .randoms {
     font-size: 36px;
-    font-weight: 600;
+    font-weight:900;
     text-align: center;
-    padding: 10px
+    padding: 30px 0px
 }
 
 .card {
@@ -119,8 +121,8 @@ img {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB ;
-    
     justify-content: center;
+    margin-top: 100px;
     padding: 150px 450px
     
 }
@@ -128,6 +130,7 @@ img {
 .quote{
     font-size: 36px;
     font-style: italic;
+    font-weight: 300;
 }
 
 .author{
@@ -178,10 +181,10 @@ img {
 
 .bottombutton{
     background-color: #3882F6;
-    border: #F9FAF8 1px solid;
+    border: #F9FAF8 2px solid;
     color: #F9FAF8;
     border-radius: 6px;
-    padding:4px 14px;
+    padding:5px 20px;
     font-size: 18px;
     
     
@@ -193,5 +196,6 @@ img {
     align-items: center;
     background-color: #1F2937;
     color:#E5E7EB;
-    height:72px
+    height:72px;
+    font-size: 18px;
 }
